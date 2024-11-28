@@ -1,0 +1,29 @@
+#userText, #aiResponse {
+    min-height: 50px;
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#recordingStatus {
+    font-weight: bold;
+    min-height: 24px;
+}
+
+.btn-danger {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
